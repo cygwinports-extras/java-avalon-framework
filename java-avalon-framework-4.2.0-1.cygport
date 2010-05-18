@@ -1,0 +1,11 @@
+JAVA_CLASSPATH="avalon-logkit.jar:log4j.jar"
+inherit ant
+
+HOMEPAGE="http://excalibur.apache.org/framework/"
+SRC_URI="http://www.apache.org/dist/excalibur/${ORIG_PN}/source/${P#java-}-src.tar.gz
+         mirror://portage/dev-java/${ORIG_PN}/files/build.xml"
+SRC_DIR=${ORIG_PN}
+
+ANT_BUILD_TARGETS="jar javadoc"
+ANT_INSTALL_JARS="dist/*.jar"
+ANT_INSTALL_JAVADOC="target/docs"

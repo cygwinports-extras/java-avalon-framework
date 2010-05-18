@@ -1,0 +1,7 @@
+category: Java
+requires: java-avalon-logkit java-log4j
+sdesc: "Avalon (now Excalibur) Framework for Java"
+ldesc: "The Avalon Framework consists of interfaces that define 
+relationships between commonly used application components, 
+best-of-practice pattern enforcements, and several lightweight 
+convenience implementations of the generic components."
